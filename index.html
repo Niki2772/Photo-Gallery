@@ -1,64 +1,78 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Photo gallery</title>
 
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.css">
+<head>
+    <meta charset="utf-8">
+    <title>Photo gallery</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.css">
 </head>
+
 <body>
 
-        <div>
-                <a href="images/autumn.jpg" data-fancybox="nature" >
-                    <img src="images/autumn.jpg" alt="" />
-                </a>
-                <a href="images/beach.jpg" data-fancybox="nature" >
-                    <img src="images/beach.jpg" alt="" />
-                </a>
-                <a href="./images/boat.jpg" data-fancybox="nature" >
-                    <img src="./images/boat.jpg" alt="" />
-                </a>
-                <a href="./images/mountaines.jpg" data-fancybox="nature" >
-                    <img src="./images/mountaines.jpg" alt="" />
-                </a>
-                <a href="./images/ocean.jpg" data-fancybox="nature" >
-                    <img src="./images/ocean.jpg" alt="" />
-                </a>
-                <a href="./images/road.jpg" data-fancybox="nature" >
-                    <img src="./images/road.jpg" alt="" />
-                </a>
-                <a href="./images/sunrise.jpg" data-fancybox="nature" >
-                    <img src="./images/sunrise.jpg" alt="" />
-                </a>
-                <a href="./images/sunset.jpg" data-fancybox="nature" >
-                    <img src="./images/sunset.jpg" alt="" />
-                </a>
-                <a href="./images/waterfall.jpg"  data-fancybox="nature">
-                    <img src="./images/waterfall.jpg" alt="" />
-                </a>
-            </div>
-                <style>
-                *{
-                    margin: 0;
-                    padding: 0;
-                    box-sizing: border-box;
-                    height: 100%;
-                }
-                img {
-                    
-                    width: 33.3%;
-                    height: 33.3%;
-                    float: left;
-                    border: 1px solid #999;
-                    }
-                img:hover {
-                    cursor: pointer;
-                    border: 1px solid #fff;
-                }
-                </style>
-	<!-- JS -->
+    <div class="wrapper">
+
+        <a href="images/beach.jpg" data-fancybox="nature">
+            <img src="images/beach.jpg" alt="" />
+        </a>
+        <a href="./images/boat.jpg" data-fancybox="nature">
+            <img src="./images/boat.jpg" alt="" />
+        </a>
+        <a href="./images/mountaines.jpg" data-fancybox="nature">
+            <img src="./images/mountaines.jpg" alt="" />
+        </a>
+        <a href="images/autumn.jpg" data-fancybox="nature">
+            <img src="images/autumn.jpg" alt="" />
+        </a>
+        <a href="./images/ocean.jpg" data-fancybox="nature">
+            <img src="./images/ocean.jpg" alt="" />
+        </a>
+        <a href="./images/road.jpg" data-fancybox="nature">
+            <img src="./images/road.jpg" alt="" />
+        </a>
+        <a href="./images/sunrise.jpg" data-fancybox="nature">
+            <img src="./images/sunrise.jpg" alt="" />
+        </a>
+        <a href="./images/sunset.jpg" data-fancybox="nature">
+            <img src="./images/sunset.jpg" alt="" />
+        </a>
+        <a href="./images/waterfall.jpg" data-fancybox="nature">
+            <img src="./images/waterfall.jpg" alt="" />
+        </a>
+    </div>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .wrapper {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+
+        img {
+            width: 33.3%;
+            height: 33.3%;
+            float: left;
+            border: 1px solid #999;
+        }
+
+        img:hover {
+            cursor: pointer;
+            border: 1px solid #fff;
+        }
+    </style>
+   
+         
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js"></script>
+  
+
+
 </body>
 </html>
